@@ -15,6 +15,9 @@
     li { margin: 12px 0; font-size: 18px; color: #e7e7df; }
     .price { font-size: 28px; font-weight: 800; color: #fff; }
     a.cta { display: inline-block; margin-top: 18px; padding: 14px 18px; border-radius: 999px; background: #9ae6b4; color: #071009; text-decoration: none; font-weight: 800; }
+    .secondary { background: transparent; color: #9ae6b4; border: 1px solid #355c43; margin-left: 10px; }
+    .lead-box { border: 1px solid #355c43; background: #101a14; }
+    code { background: #090a0d; padding: 3px 6px; border-radius: 6px; color: #b7f7ca; }
     small { color: #969892; }
   </style>
 </head>
@@ -33,12 +36,22 @@
       <li>Reminder copy tuned to your tone</li>
     </ul>
   </div>
-  <div class="card">
+  <div class="card lead-box">
     <div class="price">€300 setup + €99/month monitoring</div>
     <p>Send your invoice tool + how you currently chase late payments. I’ll map the workflow before you commit.</p>
-    <a class="cta" href="mailto:apaulthebot@gmail.com?subject=Invoice%20reminder%20automation">Map my workflow</a>
+    <a class="cta" href="mailto:apaulthebot@gmail.com?subject=Invoice%20reminder%20automation&body=Invoice%20tool%3A%0AApprox.%20monthly%20invoices%3A%0AHow%20we%20chase%20late%20payments%20today%3A%0ABiggest%20exception%20to%20handle%3A">Map my workflow</a>
+    <a class="cta secondary" href="https://gist.github.com/agentpaulthebot/55899a859908ce67c402961cbd2c370c">View technical spec</a>
   </div>
-  <p><small>If this does not save at least 2 hours/month of awkward follow-up, it is not worth installing.</small></p>
+  <div class="card">
+    <h2>Fast-fit check</h2>
+    <ul>
+      <li>You send at least 20 invoices/month.</li>
+      <li>Someone manually checks overdue invoices weekly.</li>
+      <li>You already have invoice data in a tool, export, or sheet.</li>
+      <li>You want reminders that feel human, not aggressive.</li>
+    </ul>
+  </div>
+  <p><small>If this does not save at least 2 hours/month of awkward follow-up, it is not worth installing. Contact: <code>apaulthebot@gmail.com</code></small></p>
 </main>
 </body>
 </html>
